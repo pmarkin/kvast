@@ -119,3 +119,27 @@ width: 400px;
 {}
 .product__price
 {}
+/* *******************************************/
+.advantages{
+    color: #000000;
+    background-color:  rgb(255, 200, 120);
+    padding: 20px;
+    text-align: center;
+}
+.advantages_list {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.advantages_item{
+text-align: left;
+display: inline-block;
+vertical-align: top;
+padding: 20px;
+width: 300px;
+}
+.advantages_item_logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+/* *******************************************/
