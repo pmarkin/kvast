@@ -6,7 +6,7 @@ body {
 .page-header {
     color: #ffffff;
     background-color: #8b6319;
-    padding: 20px;
+    padding: 2.5%;
     text-align: center;
 }
 
@@ -42,15 +42,20 @@ body {
 
 .menu__item a {
     color: #ffffff;
-   /* padding: 20px;*//* Этого нельзя делать, т.к. приводит к артефактной подсветке ссылок*/
-    padding-left: 20px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .menu__item a:hover {
-    color: rgb(255, 253, 123);
-    text-decoration: underline;
+    
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-right: 9px;
+    border-right: 1px solid rgb(255, 255, 255);
 }
 /**/
 
@@ -70,6 +75,14 @@ body {
 }
 
 /* *******************************************/
+.block_title{
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+    text-align: left;
+    text-transform: uppercase;
+   
+}
+/* *******************************************/
 
 .new-products{
     color: #000000;
@@ -77,6 +90,7 @@ body {
     padding: 20px;
     text-align: center;
 }
+
 .product-list {
     text-align: center;
     display: inline-block;
@@ -112,7 +126,9 @@ width: 400px;
 .product__ingredients
 {}
 .product__title       
-{}
+{
+    text-transform: uppercase;
+}
 .product__description
 {}
 .product__actions
@@ -143,3 +159,63 @@ width: 300px;
     vertical-align: middle;
 }
 /* *******************************************/
+.history{
+    color: #000000;
+    background-color:  rgb(255, 255, 255);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 1.25%;
+    padding-top: 1.25%;
+}
+.history_item{
+    width: 80%;
+    margin-right: auto;
+    margin-left:auto;
+}
+.history_item_left{
+    text-align: left;
+    vertical-align: top;
+    display: table-cell;
+    width: 60%;
+    padding-left: 2.5%;    
+    padding-right: 2.5%;
+    padding-bottom: 1.25%;    
+    line-height: 1.5;
+   
+}
+.history_item_right{
+    text-align: center;
+    vertical-align: top;
+    display: table-cell;
+    width: 40%;
+    vertical-align: middle;
+}
+/* *******************************************/
+.press{
+    color: #000000;
+    background-color:  rgb(237, 229, 216);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 1.25%;
+    padding-top: 1.25%;
+}
+.press_item{
+    width: 80%;
+    margin-right: auto;
+    margin-left:auto;
+    padding-left: 2.5%;
+}
+
+.btn  {
+    color: rgb(128, 128, 128);
+    background-color:  rgb(255, 255, 255);
+    border: 1px solid rgb(128, 128, 128);
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color:  rgb(255, 200, 120);
+}
