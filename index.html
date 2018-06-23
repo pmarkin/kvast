@@ -2,91 +2,142 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Кваст</title>
-  <base href="">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Кваст</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="page-header">
-      <table class="table_header">
-          <tr>
-              <td colspan="2">
-                <div class="header-logo">
-                  <img src="img/logo.png" alt="КВАСТ" width="140" height="76">
-                </div>
-              </td>
-              <td><a class="a_header" href="#">ИСТОРИЯ</a></td>
-              <td><a class="a_header" href="#">ПРОИЗВОДСТВО</a></td>
-              <td><a class="a_header" href="#">АССОРТИМЕНТ</a></td>
-              <td><a class="a_header" href="#">ГДЕ КУПИТЬ</a></td>
-          </tr>
-          <tr>
-              <td colspan="5">
-                  <div class="promo">
-                      <h1>Крафтовый квас всему голова!</h1>
-                    </div>
-              </td>
-          </tr>
-  
-      </table>
-  </div> 
-  
-  <div class="newitems">
-      <h1>НОВИНКИ</h1>
+<div class="page-header">
+    <div class="page-header__top">
+                 
+        <div class="page-header__logo">
+            <img src="img/logo.png" alt="Кваст" width="140" height="76">
+        </div>
+        
+       <div class="page-header__menu_block">
+            <ul class="page-header__menu menu">
+                <li class="menu__item"><a href="#">История</a></li>
+                <li class="menu__item"><a href="#">Производство</a></li>
+                <li class="menu__item"><a href="#new-products">Ассортимент</a></li>
+                <li class="menu__item"><a href="#">Где купить</a></li>
+        </ul>
+   </div>
     
-      <Table>
-        <tr>
-          <td>
-              <div class="catalog-item">
-                  <h2>Вахтер</h2>
-                  <b>Алк.</b>
-                  <b>&lt;1%</b><br>
-                  <b>Ккал:</b>
-                  <b>35</b><br>
-                  <p>Ржаной хлеб, Вода, Солод,Соль</p>
-                  <img src="img/bottle-left.jpg" alt="Вахтер" width="319" height="459">
-                  <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжелого дня и придаст сил для вечерних приключений!</p>
-                  <a class="btn" href="#">Подробнее</a>
-                  <a class="btn" href="#">Купить</a>
-                  <b>150 Р.</b><br>
-              </div>
-        
-          </td>
-          <td>
-              <div class="catalog-item">
-                  <h2>Романтик</h2>
-                  <b>Алк.</b>
-                  <b>&lt;0,5%</b><br>
-                  <b>Ккал:</b>
-                  <b>27</b><br>
-                  <p>Ячменный хлеб, Вода, Солод,Апельсин</p>
-                  <img src="img/bottle-right.jpg" alt="Романтик" width="319" height="459">
-                  <p>Лёгкий и освежающий напиток поможет сохранить отличное настроение в течении всего дня.</p>
-                  <a class="btn" href="#">Подробнее</a>
-                  <a class="btn" href="#">Купить</a>
-                  <b>90 Р.</b><br>
-              </div>
-        
-           </td>
-  
-        </tr>
-      </Table>
-    </div> 
-  
-  <div class="press">
-  </div> 
-  
-  <div class="assortament">
-  </div> 
- 
-  <div class="order">
-    </div> 
- 
-  <div class="page-footer">
-  </div> 
+    </div>
+    
+    <div class="page-header__bottom">
+        <div class="page-header__carousel carousel">
+            <div class="carousel__item">
+                <p class="carousel__header">Крафтовый квас<br>всему голова!</p>
+            </div>
+        </div>
+    </div>
 
-  </body>
+</div>
+
+<div id="new-products" class="new-products">
+    <h1>Новинки</h1>
+
+    <div class="product-list">
+     
+        <div class="product__item">
+                <div class="product__image">
+                        <img src="img/bottle-left.jpg" alt="Вахтер" width="319" height="459">
+                    </div>
+                
+            <div class="characteristics_block">
+                <table class="product__characteristics">
+                            <tr>
+                                <td>Алк.</td> <td>&lt; 1%</td>
+                            </tr>
+                            <tr>
+                                <td>Ккал:</td> <td>35</td>
+                            </tr>
+                </table>
+            
+                <p class="product__ingredients">Ржаной хлеб, Вода, Солод,Соль</p>
+            </div>
+    
+    
+            <h1 class="product__title">Вахтер</h1>
+
+
+            <p class="product__description">
+                Терпкий и мощный, вкус этого кваса взбодрит после тяжелого дня и придаст сил для вечерних
+                приключений!
+            </p>
+            <div>
+
+            </div class="product__actions">
+            <a class="btn" href="#"> Купить</a>
+            <a class="btn" href="#">Подробнее</a>
+            <span class="product__price">
+                    <b>150 Р.</b>
+                </span>
+            </div>
+            
+        </div>
+
+        <div class="product__item">
+                <div class="product__image">
+                        <img src="img/bottle-right.jpg" alt="Романтик" width="319" height="459">
+                    </div>
+                
+            <div class="characteristics_block">
+                <table class="product__characteristics">
+                            <tr>
+                                <td>Алк.</td> <td>&lt;0,5%</td>
+                            </tr>
+                            <tr>
+                                <td>Ккал:</td> <td>27</td>
+                            </tr>
+                </table>
+            
+                <p class="product__ingredients">Ячменный хлеб, Вода, Солод,Апельсин</p>
+            </div>
+    
+    
+            <h1 class="product__title">Романтик</h1>
+
+
+            <p class="product__description">
+                    Лёгкий и освежающий напиток поможет сохранить отличное настроение в течении всего дня.
+            </p>
+            <div>
+
+            </div class="product__actions">
+            <a class="btn" href="#"> Купить</a>
+            <a class="btn" href="#">Подробнее</a>
+            <span class="product__price">
+                    <b>90 Р.</b>
+                </span>
+            </div>
+            
+        </div>
+
+       
+    </div>
+</div>
+
+<div class="advantages">
+</div>
+
+<div class="history">
+</div>
+
+<div class="press">
+</div>
+
+<div class="assortment">
+</div>
+
+<div class="order">
+</div>
+
+<div class="page-footer">
+</div>
+
+</body>
 
 </html>

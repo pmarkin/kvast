@@ -1,63 +1,121 @@
-.page-header
- {
-    color: white;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.page-header {
+    color: #ffffff;
+    background-color: #8b6319;
     padding: 20px;
-    background-color: rgb(139, 99, 25);
-   
-    
-}
-.a_header { color:#ffffff; text-decoration:none;}
-.a_header:hover {
-    color:rgb(255, 253, 123);
-	outline: none;
-	text-decoration: none;
-}
-.table_header
-{
-    margin: auto;
-    width: 800px;
     text-align: center;
 }
-.promo
-{
-    font-size: 250%;
+
+.page-header__top {
+    text-align: center;
+    display: inline-block;
 }
 
-
-.page-footer {
-    padding: 10px;
-    margin-top: 20px;
-     background-color: #eeeeee;
+.page-header__logo {
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.price-list {
-    width: 100%;
-    border-collapse: collapse;
+.page-header__menu_block {
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.price-list th {
-    font-weight: normal;
+.page-header__menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item {
+    display: inline-block;
+}
+
+.menu__item a {
+    color: #ffffff;
+   /* padding: 20px;*//* Этого нельзя делать, т.к. приводит к артефактной подсветке ссылок*/
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__item a:hover {
+    color: rgb(255, 253, 123);
+    text-decoration: underline;
+}
+/**/
+
+.carousel {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.carousel__item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel__header {
+    font-size: 400%;
+}
+
+/* *******************************************/
+
+.new-products{
+    color: #000000;
+    background-color:  #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.product-list {
+    text-align: center;
+    display: inline-block;
+}
+.product__item{
+position: relative;
+text-align: left;
+display: inline-block;
+vertical-align: top;
+padding-left: 50px;
+padding-bottom: 25px;
+width: 400px;
+}
+
+.product__image{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+
+}
+.characteristics_block{
+    position: absolute;
+    top: 20px;
+    left:250px;   
     text-align: left;
-}
-
-.price-list td {
-    border: 1px solid #333333;
-}
-
-.price-list th,
-.price-list td {
-    padding: 5px 10px;
-}
-
-.price-list .price-number {
-    text-align: center;
-}
-
-.price-list .price-name {
-    font-weight: bold;
-}
-
-.feedback-form-group {
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
+    vertical-align: top;
+    padding: 5px;
+    
+    }
+.product__characteristics
+{}
+.product__ingredients
+{}
+.product__title       
+{}
+.product__description
+{}
+.product__actions
+{}
+.product__price
+{}
