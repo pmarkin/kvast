@@ -205,7 +205,7 @@ width: 300px;
     margin-left:auto;
     padding-left: 2.5%;
 }
-
+/* *******************************************/
 .btn  {
     color: rgb(128, 128, 128);
     background-color:  rgb(255, 255, 255);
@@ -218,4 +218,61 @@ width: 300px;
 
 .btn:hover {
     background-color:  rgb(255, 200, 120);
+}
+
+/* *******************************************/
+.assortment{
+    color: #000000;
+    background-color:  rgb(255, 255, 255);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 1.25%;
+    padding-top: 1.25%;
+}
+.assortment_table{
+    width: 80%;
+    margin-right: auto;
+    margin-left:auto;
+    border-collapse: collapse;
+   
+}
+.assortment_table th{
+    border-bottom: 1px solid silver; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: darkgray;
+    text-transform: uppercase;
+    font-size:80% ;
+    font-weight: bold;
+}
+.assortment_table_col1{
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.assortment_table_col_i{
+    width: auto;
+    text-align: center;
+}
+
+.assortment_table_col5{
+    width: auto;
+    text-align: right;
+}
+
+.assortment_table td{
+    border-bottom: 1px solid silver; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.span_negative{
+    text-transform: uppercase;   
+    color: white;
+    background-color: black;
+    vertical-align:super;
+    font-size:60% ;
+    margin-left: 10px;
 }
