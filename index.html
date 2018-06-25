@@ -22,7 +22,7 @@
             <ul class="page-header__menu menu">
                 <li class="menu__item"><a href="#">История</a></li>
                 <li class="menu__item"><a href="#">Производство</a></li>
-                <li class="menu__item"><a href="#new-products">Ассортимент</a></li>
+                <li class="menu__item"><a href="#assortment">Ассортимент</a></li>
                 <li class="menu__item"><a href="#">Где купить</a></li>
         </ul>
    </div>
@@ -41,7 +41,7 @@
 
 <!--*************************-->
 <!--*************************-->
-<div id="new-products" class="new-products">
+<div  class="new-products">
     <h1 class="block_title">Новинки</h1>
 
     <div class="product-list">
@@ -204,7 +204,7 @@
 </div>
 <!--*************************-->
 <!--*************************-->
-<div class="assortment">
+<div id="assortment" class="assortment">
     <h1 class="block_title">Ассортимент</h1>
 <table class="assortment_table">
     <tr>
@@ -250,8 +250,75 @@
 <!--*************************-->
 <!--*************************-->
 <div class="order">
+    <h1 class="block_title">Заказать</h1>
+    <div class="order_item">
+            <p>
+            Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.
+    
+    </p>
+    </div>
+
+    <div class="order_item">
+        <form  action="/keksby-mail" method="post">
+        <div class="order_form">
+        
+            <div class="order-item_group">
+                <div class="order_label">
+                <label   for="fullname">Представьтесь:</label>
+                </div>
+                <input  class="order_input" type="text" name="fullname" id="fullname">
+            </div>
+            <div class="order-item_group">
+                <div class="order_label">
+                <label   for="phone">Номер телефона:</label>
+                </div>
+                <input  class="order_input_tel" type="tel" name="phone" id="phone">
+                <div class="order_label">
+                    <label   for="phone2">Доп. номер:</label>
+                    </div>
+                    <input  class="order_input_tel" type="tel" name="phone2" id="phone2">
+                
+            </div>
+
+        <div class="order-item_group">
+                <div class="order_label">
+                    <label  for="email">Email:</label>
+                </div>
+                <input  class="order_input" type="email" name="email" id="email">
+        </div>
+        <br>
+        <div class="order-item_group">
+            <div class="order_label">
+                <label  for="Volume">Объем заказа:</label>
+            </div>
+            <select class="order_input" name="volume" id="volume">
+                <option value=1>От 5 до 10 баррелей в неделю</option>
+                <option value=2>От 10 до 50 баррелей в неделю</option>
+                <option value=3>От 50 баррелей в неделю</option>
+            </select>
+            
+        </div>
+        <div class="order-item_group">
+            <div class="order_label">
+                <label  for="comments">Доп. комментарий:</label>
+            </div>
+            <textarea class="order_input" rows="3" id="comments"  name="comments"></textarea>
+        </div>
+        <div class="order-item_group">
+            <label for="subscription"><input id="subscription" name="subscription" type="checkbox" checked></input>Я согласен получать квасную рассылку</label>
+         </div>
+         <div class="order-item_group">
+            <input class="btn" type="submit" value="Отправить заказ">
+        </div>
+    </form>
+    
+   
 </div>
 
+
+</div>
+<!--*************************-->
+<!--*************************-->
 <div class="page-footer">
 </div>
 

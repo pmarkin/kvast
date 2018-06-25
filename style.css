@@ -276,3 +276,43 @@ width: 300px;
     font-size:60% ;
     margin-left: 10px;
 }
+/* *******************************************/
+.order{
+    color: #000000;
+    background-color:  rgb(255, 200, 120);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 1.25%;
+    padding-top: 1.25%;
+}
+.order_item{
+    width: 80%;
+    margin-right: auto;
+    margin-left:auto;
+    
+}
+.order_form{
+    width: 80%;
+}
+
+.order_label {
+    width: 20%;
+    padding-right:5%;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block; 
+}
+.order_input{
+    vertical-align: top; 
+    width: 70%;
+    line-height: 24px;
+
+}
+
+
+.order-item_group {
+    line-height:30px;
+    vertical-align: middle; 
+    
+}
+/* *******************************************/
