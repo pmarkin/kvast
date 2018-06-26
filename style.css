@@ -316,3 +316,29 @@ width: 300px;
     
 }
 /* *******************************************/
+.page-footer {
+    color: #ffffff;
+    background-color: black;
+    padding: 2.5%;
+    text-align: center;
+}
+.page_footer_bottom{
+    width: 80%;
+    margin-right: auto;
+    margin-left:auto;
+}
+.footer-social{
+    display: table-cell;
+    vertical-align: middle;
+    width: 30%;
+}
+.footer-copyright{
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+}
+.footer-Academy{
+    display: table-cell;
+    vertical-align: middle;  
+    width: 30%;
+}
